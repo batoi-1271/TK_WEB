@@ -1,0 +1,12 @@
+@mixin Bg-size-icon($w) {
+    width: 34px;
+    height: 34px;
+    display: inline-block;
+    margin-left: $w;
+}
+
+@mixin center-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

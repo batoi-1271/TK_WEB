@@ -1,0 +1,316 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: normal;
+          box-sizing: normal;
+}
+
+main {
+  overflow: hidden;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+h4, h5, h6, h1, h2, h3 {
+  margin-top: 0;
+}
+
+p {
+  margin: 0;
+}
+
+html, body {
+  background: #f3eeea !important;
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+body a {
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  -ms-transition: 0.5s all;
+  text-decoration: none !important;
+  list-style-type: none !important;
+}
+
+.header {
+  background: #fff;
+  padding: 1em;
+  position: relative;
+}
+
+.logo {
+  float: left;
+  padding: 1em 0em;
+}
+
+.head-part {
+  background: url(./images/ribben.png) no-repeat center top;
+  background-size: cover;
+  position: absolute;
+  right: -11px;
+  top: 22px;
+  padding: 10px 80px 4px 6px;
+}
+
+.head-part ul li {
+  display: inline-block;
+}
+
+.head-part ul li a {
+  padding: 0em 0.5em;
+  color: #fff;
+  text-decoration: none;
+}
+
+.head-part ul li a:hover {
+  color: #f1715e;
+}
+
+.head-nav {
+  float: right;
+}
+
+.head-nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+.head-nav ul li {
+  display: inline-block;
+}
+
+.head-nav ul li a {
+  color: #668333;
+  text-decoration: none;
+  font-size: 1.3em;
+  font-weight: 400;
+  display: block;
+  padding: 0.5em 1em;
+  text-transform: uppercase;
+}
+
+.head-nav ul li a:hover,
+.head-nav ul li.active a {
+  color: #3f8da3;
+}
+
+.banner {
+  background: url(./images/banner.jpg) no-repeat center top;
+  background-size: cover;
+  min-height: 520px;
+}
+
+.banner .banner-info1 {
+  padding: 13em 0em 0em;
+}
+
+.banner .banner-info1 h2 {
+  font-size: 1.8em;
+  font-weight: 400;
+  color: #ffffff;
+  width: 29%;
+  margin-left: 0em;
+  background: #4391a5;
+  padding: 0.3em 0.5em;
+  line-height: 1.5em;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.about {
+  margin: 3em 0em 6em;
+}
+
+.about .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-items: flex-end;
+}
+
+.about .mission h3 {
+  font-size: 2em;
+  font-weight: 400;
+  color: #4999af;
+  margin: 1em 0em;
+}
+
+.about .mission p {
+  font-size: 1.1em;
+  font-weight: 400;
+  color: #5f5f5f;
+  line-height: 1.5em;
+  margin: 1em 0em;
+}
+
+.about .mission-1 {
+  margin: 3em 0em;
+}
+
+.about .mission-1 ul {
+  width: 550px;
+}
+
+.about .mission-1 ul li a {
+  font-size: 1.4em;
+  font-weight: 400;
+  color: #4292a8;
+  margin: 0em 3em;
+  line-height: 2.5em;
+  display: block;
+  border-bottom: 1px solid #d8d8d8;
+  padding-left: 20px;
+}
+
+.about .mission-1 ul li a:hover {
+  color: #f1715e;
+}
+
+.about .mission-1 ul li #active {
+  color: #f1715e;
+}
+
+.about .mission-1 ul li #active:hover {
+  color: #4292a8;
+}
+
+.footer {
+  background-color: #525252;
+}
+
+.footer .footer-top {
+  border-bottom: 1px solid #807c7c;
+  padding: 3em 0em;
+}
+
+.footer .footer-top h5 {
+  color: white;
+  font-weight: 600;
+  font-family: 1.5em;
+}
+
+.footer .footer-top .news form input {
+  margin-top: 30px;
+  width: 90%;
+  height: 45px;
+  border-radius: 3px;
+  border: none;
+  background: #4999af;
+  color: white;
+  font-size: 17px;
+  font-weight: 400;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+.footer .footer-top .news form input:hover {
+  background-color: white;
+  color: #4999af;
+  border: 2px solid #4999af;
+}
+
+.footer .footer-top .service h5 {
+  margin: 0em 0em 2em;
+}
+
+.footer .footer-top .service h6 {
+  color: #fff;
+  font-size: 1.3em;
+}
+
+.footer .footer-top .service p {
+  color: #fff;
+  font-size: 0.875em;
+  line-height: 1.8em;
+}
+
+.footer .footer-top .connect ul {
+  padding: 0;
+}
+
+.footer .footer-top .connect ul li {
+  display: inline-block;
+}
+
+.footer .footer-top .connect ul li .fb {
+  width: 34px;
+  height: 34px;
+  display: inline-block;
+  margin-left: 0px;
+  background: url(../images/img-sprite.png) no-repeat -95px -16px;
+}
+
+.footer .footer-top .connect ul li .fb:hover {
+  opacity: 0.4;
+}
+
+.footer .footer-top .connect ul li .twt {
+  background: url(../images/img-sprite.png) no-repeat -138px -16px;
+  width: 34px;
+  height: 34px;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.footer .footer-top .connect ul li .twt:hover {
+  opacity: 0.4;
+}
+
+.footer .footer-top .connect ul li .yout {
+  background: url(../images/img-sprite.png) no-repeat -180px -16px;
+  width: 34px;
+  height: 34px;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.footer .footer-top .connect ul li .yout:hover {
+  opacity: 0.4;
+}
+
+.footer .footer-top .connect ul li .payp {
+  background: url(../images/img-sprite.png) no-repeat -225px -17px;
+  width: 34px;
+  height: 34px;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.footer .footer-top .connect ul li .payp:hover {
+  opacity: 0.4;
+}
+
+.footer .footer-top .connect ul li .email {
+  background: url(../images/img-sprite.png) no-repeat -269px -17px;
+  width: 34px;
+  height: 34px;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.footer .footer-top .connect ul li .email:hover {
+  opacity: 0.4;
+}
+
+.footer .bottom {
+  overflow: hidden;
+}
+
+.footer .bottom p {
+  font-size: 1.1em;
+  font-weight: 400;
+  color: #fff;
+  margin: 1em 0em;
+  line-height: 1.8em;
+}
+
+.footer .bottom p a {
+  color: #4999af;
+}
+/*# sourceMappingURL=style.css.map */

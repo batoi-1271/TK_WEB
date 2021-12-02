@@ -1,0 +1,142 @@
+// /* --footer-- */
+
+.footer {
+    background-color: #525252;
+
+    .footer-top {
+        border-bottom: 1px solid #807c7c;
+        padding: 3em 0em;
+
+        h5 {
+
+            color: white;
+            font-weight: 600;
+            font-family: 1.5em;
+        }
+
+        .news {
+            form {
+                input {
+                    margin-top: 30px;
+                    width: 90%;
+                    height: 45px;
+                    border-radius: 3px;
+                    border: none;
+                    background: #4999af;
+                    color: white;
+
+                    font: {
+                        size: 17px;
+                        weight: 400;
+                    }
+
+                    transition: .2s;
+
+                    &:hover {
+                        background-color: white;
+                        color: #4999af;
+                        border: 2px solid #4999af;
+
+                    }
+                }
+            }
+        }
+
+        .service {
+            h5 {
+                margin: 0em 0em 2em;
+            }
+
+            h6 {
+                color: #fff;
+                font: {
+                    size: 1.3em;
+                }
+            }
+
+            p {
+                color: #fff;
+                font-size: 0.875em;
+                line-height: 1.8em;
+
+            }
+        }
+
+        .connect {
+            ul {
+                padding: 0;
+
+                li {
+                    display: inline-block;
+
+                    .fb {
+                        @include Bg-size-icon(0px);
+                        background: url(../images/img-sprite.png) no-repeat -95px -16px;
+
+                        &:hover {
+                            opacity: 0.4;
+                        }
+                    }
+
+                    .twt {
+                        background: url(../images/img-sprite.png) no-repeat -138px -16px;
+                        @include Bg-size-icon (10px);
+
+                        &:hover {
+                            opacity: 0.4;
+                        }
+                    }
+
+                    .yout {
+                        background: url(../images/img-sprite.png) no-repeat -180px -16px;
+                        @include Bg-size-icon (10px);
+
+
+                        &:hover {
+                            opacity: 0.4;
+                        }
+                    }
+
+                    .payp {
+                        background: url(../images/img-sprite.png) no-repeat -225px -17px;
+                        @include Bg-size-icon (10px);
+
+
+                        &:hover {
+                            opacity: 0.4;
+                        }
+                    }
+
+                    .email {
+                        background: url(../images/img-sprite.png) no-repeat -269px -17px;
+                        @include Bg-size-icon (10px);
+
+
+                        &:hover {
+                            opacity: 0.4;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .bottom {
+        overflow: hidden;
+
+        p {
+            font: {
+                size: 1.1em;
+                weight: 400;
+            }
+            color: #fff;
+            margin: 1em 0em;
+            line-height: 1.8em;
+
+            a {
+                color: #4999af;
+
+            }
+        }
+    }
+}
