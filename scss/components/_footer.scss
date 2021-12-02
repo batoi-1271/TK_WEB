@@ -8,10 +8,11 @@
         padding: 3em 0em;
 
         h5 {
-
             color: white;
-            font-weight: 600;
-            font-family: 1.5em;
+            font: {
+                weight: 600;
+                family: 1.5em;
+            }
         }
 
         .news {
@@ -29,9 +30,7 @@
                         size: 17px;
                         weight: 400;
                     }
-
                     transition: .2s;
-
                     &:hover {
                         background-color: white;
                         color: #4999af;
@@ -46,16 +45,12 @@
             h5 {
                 margin: 0em 0em 2em;
             }
-
             h6 {
-                color: #fff;
                 font: {
                     size: 1.3em;
                 }
             }
-
             p {
-                color: #fff;
                 font-size: 0.875em;
                 line-height: 1.8em;
 
@@ -91,7 +86,6 @@
                         background: url(../images/img-sprite.png) no-repeat -180px -16px;
                         @include Bg-size-icon (10px);
 
-
                         &:hover {
                             opacity: 0.4;
                         }
@@ -101,7 +95,6 @@
                         background: url(../images/img-sprite.png) no-repeat -225px -17px;
                         @include Bg-size-icon (10px);
 
-
                         &:hover {
                             opacity: 0.4;
                         }
@@ -110,7 +103,6 @@
                     .email {
                         background: url(../images/img-sprite.png) no-repeat -269px -17px;
                         @include Bg-size-icon (10px);
-
 
                         &:hover {
                             opacity: 0.4;

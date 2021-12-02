@@ -34,12 +34,17 @@
                                 <div class="search-box">
                                     <div id="sb-search" class="sb-search">
                                         <form action="">
-                                            <!-- <input type="search" class="sb-search-input" placeholder="Enter your search term..." name="search" id="search"> -->
-                                            <!-- <input type="submit" class="sb-search-submit" name="" id=""> -->
-                                            <span class="fa fa-search" style="color: white;"></span>
+                                            <input type="search" class="sb-search-input" placeholder="Enter your search term..." name="search" id="search">
+                                            <input type="submit" class="sb-search-submit" name="" id="">
+                                            <span class="fa sb-icon-search" style="color: white;"></span>
                                         </form>
                                     </div>
                                 </div>
+								<script src="./js/classie.js"></script>
+                                <script src="./js/uisearch.js"></script>
+								<script>
+									new UISearch(document.getElementById('sb-search'));
+								</script>
                             </li>
                         </ul>
                     </div>
@@ -107,10 +112,10 @@
                         SIGNUP TO OUR NEWSLETTER
                     </h5>
                     <form action="">
-                        <input type="submit" name="" id="" value="EMAIL SIGNUP">
+                        <input type="submit" name="" id="" value="EMAIL SIGNUP" class="">
                     </form>
                 </div>
-                <div class="col-md-4 service">
+                <div class="col-md-4 service text-white">
                     <h5>SERVICE TIMES</h5>
                     <h6>Sunday at 9:30 & 11:30 AM</h6>
                     <p>Lorem ipsum dolor sit amet.</p>
