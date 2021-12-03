@@ -7,7 +7,7 @@ $(window).scroll(function () {
     }
 })
 
-// animate gioi thieu sach
+
 
 let nCount = selector => {
     $(selector).each(function () {
