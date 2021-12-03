@@ -10,3 +10,35 @@
     flex-direction: column;
     justify-content: center;
 }
+
+@mixin text-grids {
+    font-size: 2.5em;
+    font-weight: 800;
+    color: #fff;
+    text-transform: uppercase;
+    text-shadow: 0 0 6px #626464;
+    position: absolute;
+    top: 90px;
+    right: 65px;
+}
+
+@mixin look-media {
+    position: absolute;
+    right: 45px;
+    bottom: 0;
+    padding: 15px 2px 2px 14px;
+}
+
+@mixin h4-media {
+    font-size: 1em;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+@mixin p-look-media {
+    -webkit-text-stroke: 0.5px;
+    font-size: 0.8125em;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 1.8em;
+}

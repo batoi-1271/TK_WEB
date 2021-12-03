@@ -92,8 +92,8 @@ body a {
 
 .header .head-nav ul li a {
   color: #668333;
-  font-size: 1.3em;
-  font-weight: 400;
+  font-size: 1.1em;
+  font-weight: bold;
   display: block;
   padding: 0.5em 1em;
   text-transform: uppercase;
@@ -270,6 +270,135 @@ body a {
 
 .about .mission-1 ul li #active:hover {
   color: #4292a8;
+}
+
+.content .grids {
+  padding: 3em 0;
+}
+
+.content .grids .grid1 {
+  position: relative;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.content .grids .grid1:hover .look {
+  background: rgba(102, 131, 51, 0.79);
+}
+
+.content .grids .grid1 h3 {
+  font-size: 2.5em;
+  font-weight: 800;
+  color: #fff;
+  text-transform: uppercase;
+  text-shadow: 0 0 6px #626464;
+  position: absolute;
+  top: 90px;
+  right: 65px;
+}
+
+.content .grids .grid1 .look {
+  position: absolute;
+  right: 45px;
+  bottom: 0;
+  padding: 15px 2px 2px 14px;
+  background: rgba(1, 185, 236, 0.63);
+}
+
+.content .grids .grid1 .look h4 {
+  font-size: 1em;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.content .grids .grid1 .look p {
+  -webkit-text-stroke: 0.5px;
+  font-size: 0.8125em;
+  color: #fff;
+  text-transform: uppercase;
+  line-height: 1.8em;
+}
+
+.content .grids .grid2:hover .look1 {
+  background: rgba(237, 100, 80, 0.55);
+}
+
+.content .grids .grid2 h3 {
+  font-size: 2.5em;
+  font-weight: 800;
+  color: #fff;
+  text-transform: uppercase;
+  text-shadow: 0 0 6px #626464;
+  position: absolute;
+  top: 90px;
+  right: 65px;
+}
+
+.content .grids .grid2 .look1 {
+  position: absolute;
+  right: 45px;
+  bottom: 0;
+  padding: 15px 2px 2px 14px;
+  background: rgba(102, 131, 51, 0.79);
+}
+
+.content .grids .grid2 .look1 h4 {
+  font-size: 1em;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.content .grids .grid2 .look1 p {
+  -webkit-text-stroke: 0.5px;
+  font-size: 0.8125em;
+  color: #fff;
+  text-transform: uppercase;
+  line-height: 1.8em;
+}
+
+.content .grids .grid3:hover .look2 {
+  background: rgba(1, 185, 236, 0.63);
+}
+
+.content .grids .grid3 h3 {
+  font-size: 2.5em;
+  font-weight: 800;
+  color: #fff;
+  text-transform: uppercase;
+  text-shadow: 0 0 6px #626464;
+  position: absolute;
+  top: 90px;
+  right: 65px;
+}
+
+.content .grids .grid3 .look2 {
+  position: absolute;
+  right: 45px;
+  bottom: 0;
+  padding: 15px 2px 2px 14px;
+  background: rgba(237, 100, 80, 0.55);
+}
+
+.content .grids .grid3 .look2 h4 {
+  font-size: 1em;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.content .grids .grid3 .look2 p {
+  -webkit-text-stroke: 0.5px;
+  font-size: 0.8125em;
+  color: #fff;
+  text-transform: uppercase;
+  line-height: 1.8em;
+}
+
+i.arrow {
+  width: 30px;
+  height: 30px;
+  background: url(../images/img-sprite.png) no-repeat -62px -15px;
+  display: inline-block;
+  margin: -0.5em 0.5em;
 }
 
 .footer {
