@@ -293,22 +293,24 @@ body a {
   text-transform: uppercase;
   text-shadow: 0 0 6px #626464;
   position: absolute;
-  top: 90px;
+  top: 80px;
   right: 65px;
 }
 
 .content .grids .grid1 .look {
   position: absolute;
-  right: 45px;
-  bottom: 0;
-  padding: 15px 2px 2px 14px;
+  right: 55px;
+  bottom: 0px;
+  padding: 18px 2px 2px 10px;
+  height: 60px;
   background: rgba(1, 185, 236, 0.63);
 }
 
 .content .grids .grid1 .look h4 {
-  font-size: 1em;
+  font-size: 0.9em;
   color: #fff;
   text-transform: uppercase;
+  font-weight: 500;
 }
 
 .content .grids .grid1 .look p {
@@ -317,6 +319,14 @@ body a {
   color: #fff;
   text-transform: uppercase;
   line-height: 1.8em;
+}
+
+.content .grids .grid1 .look ul {
+  padding: 0;
+}
+
+.content .grids .grid1 .look ul li {
+  display: inline-block;
 }
 
 .content .grids .grid2:hover .look1 {
@@ -330,22 +340,24 @@ body a {
   text-transform: uppercase;
   text-shadow: 0 0 6px #626464;
   position: absolute;
-  top: 90px;
+  top: 80px;
   right: 65px;
 }
 
 .content .grids .grid2 .look1 {
   position: absolute;
-  right: 45px;
-  bottom: 0;
-  padding: 15px 2px 2px 14px;
+  right: 55px;
+  bottom: 0px;
+  padding: 18px 2px 2px 10px;
+  height: 60px;
   background: rgba(102, 131, 51, 0.79);
 }
 
 .content .grids .grid2 .look1 h4 {
-  font-size: 1em;
+  font-size: 0.9em;
   color: #fff;
   text-transform: uppercase;
+  font-weight: 500;
 }
 
 .content .grids .grid2 .look1 p {
@@ -354,6 +366,14 @@ body a {
   color: #fff;
   text-transform: uppercase;
   line-height: 1.8em;
+}
+
+.content .grids .grid2 .look1 ul {
+  padding: 0;
+}
+
+.content .grids .grid2 .look1 ul li {
+  display: inline-block;
 }
 
 .content .grids .grid3:hover .look2 {
@@ -367,22 +387,24 @@ body a {
   text-transform: uppercase;
   text-shadow: 0 0 6px #626464;
   position: absolute;
-  top: 90px;
+  top: 80px;
   right: 65px;
 }
 
 .content .grids .grid3 .look2 {
   position: absolute;
-  right: 45px;
-  bottom: 0;
-  padding: 15px 2px 2px 14px;
+  right: 55px;
+  bottom: 0px;
+  padding: 18px 2px 2px 10px;
+  height: 60px;
   background: rgba(237, 100, 80, 0.55);
 }
 
 .content .grids .grid3 .look2 h4 {
-  font-size: 1em;
+  font-size: 0.9em;
   color: #fff;
   text-transform: uppercase;
+  font-weight: 500;
 }
 
 .content .grids .grid3 .look2 p {
@@ -393,12 +415,316 @@ body a {
   line-height: 1.8em;
 }
 
+.content .grids .grid3 .look2 ul {
+  padding: 0;
+}
+
+.content .grids .grid3 .look2 ul li {
+  display: inline-block;
+}
+
 i.arrow {
   width: 30px;
   height: 30px;
   background: url(../images/img-sprite.png) no-repeat -62px -15px;
   display: inline-block;
   margin: -0.5em 0.5em;
+}
+
+/* --events MEDIA-- */
+.events h3 {
+  font-size: 1.8em;
+  color: #4999af;
+  margin-bottom: 35px;
+}
+
+.events .family {
+  padding: 1.5em 0em;
+  border-top: 1px solid #e5e4e4;
+}
+
+.events .family .twenty {
+  width: 13%;
+  float: left;
+}
+
+.events .family .twenty h4 {
+  font-size: 2em;
+  font-weight: 400;
+  color: #668333;
+  margin: 0em;
+}
+
+.events .family .twenty p {
+  font-size: 1em;
+  font-weight: 400;
+  color: #668333;
+  line-height: 1.8em;
+}
+
+.events .family .sunday {
+  width: 55%;
+  float: left;
+}
+
+.events .family .sunday h5 {
+  font-size: 1.3em;
+  font-weight: 400;
+  color: #f1715e;
+}
+
+.events .family .sunday p {
+  font-size: 1.1em;
+  font-weight: 400;
+  color: #5f5f5f;
+  line-height: 1.8em;
+}
+
+.events .family .mor {
+  width: 32%;
+  float: left;
+  text-align: right;
+}
+
+.events .family .mor a.more {
+  background: #4999af;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 300;
+  padding: 0.3em 1.2em;
+  display: inline-block;
+  border-radius: 3px;
+  text-align: center;
+  margin: 1em 0em 0em;
+}
+
+.events .family .mor a.more:hover {
+  background: #f1715e;
+  color: #fff;
+}
+
+.events .oaks p {
+  font-size: 1.1em;
+  font-weight: 400;
+  color: #5f5f5f;
+  margin: 1em 1em;
+  line-height: 1.6em;
+}
+
+.events .oaks a.read {
+  font-size: 1.2em;
+  font-weight: 400;
+  color: #f1715e;
+  text-decoration: none;
+}
+
+.events .oaks a.read:hover {
+  color: #668333;
+}
+
+/* --events MEDIA-- */
+.grids-1 {
+  padding: 3em 0;
+}
+
+.grids-2 {
+  padding: 3em 0 8em;
+}
+
+.events h4 {
+  font-size: 1.2em;
+  color: #fff;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.events .look-1 {
+  position: absolute;
+  left: 15.5px;
+  bottom: 0px;
+  background: rgba(141, 141, 141, 0.51);
+  width: 94.8%;
+  height: 20px;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.events .f-su {
+  width: 80%;
+  float: left;
+  background: #f1715e;
+  padding: 20px;
+}
+
+.events .mnth {
+  width: 20%;
+  float: right;
+  text-align: center;
+  background: #668333;
+  padding: 5.2px;
+}
+
+.events .mnth h5 {
+  font-size: 1.1em;
+  color: #fff;
+  margin: 0;
+}
+
+.events .mnth p {
+  font-size: 1.1em;
+  color: #fff;
+  text-transform: uppercase;
+  margin: 0;
+  line-height: 1.8em;
+}
+
+.fam {
+  height: 250px;
+}
+
+.fam img {
+  -webkit-transition: .2s;
+  transition: .2s;
+  cursor: pointer;
+}
+
+.fam img:hover {
+  opacity: 0.5;
+}
+
+.shop .look-2 {
+  position: absolute;
+  left: 15.5px;
+  bottom: 0px;
+  background: rgba(141, 141, 141, 0.51);
+  width: 94.8%;
+  height: 20px;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.shop .look-2 h4 {
+  font-size: 1.2em;
+  color: #fff;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+/*--*/
+.f-su-1 {
+  width: 80%;
+  float: left;
+  background: #f1715e;
+  padding: 20px;
+}
+
+.f-su-1:hover {
+  background: #4999af;
+}
+
+.mnth-1 {
+  width: 20%;
+  float: right;
+  text-align: center;
+  background: #4999af;
+  padding: 22px 15px 20px;
+}
+
+.mnth-1:hover {
+  background: #f1715e;
+}
+
+.mnth-1 h6 {
+  font-size: 1.1em;
+  color: #fff;
+  margin: 0;
+}
+
+/*--*/
+.veiw-img-mark {
+  position: absolute;
+  top: 40%;
+  left: 35%;
+  display: none;
+}
+
+.veiw-img-mark a {
+  background: #668333;
+  padding: 10px 20px 10px 2px;
+  color: #fff;
+  font-size: 0.875em;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.fam:hover div.veiw-img-mark {
+  display: block;
+}
+
+.cover {
+  width: 100%;
+  height: 55vmin;
+  background: url("/images/pexels-photo-452738.jpeg") fixed;
+  background-position: -24rem -19rem;
+  background-size: 150%;
+  position: relative;
+}
+
+.cover .content {
+  width: 100%;
+  height: 100%;
+  padding-top: 19vmin;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.cover .content > h1 {
+  font-size: 6vmin;
+  color: white;
+}
+
+.cover .content > p {
+  font-size: 2vmin;
+  color: white;
+}
+
+.numbers {
+  margin-top: -15vmin;
+}
+
+.numbers .rect {
+  position: relative;
+  z-index: 1;
+  background: white;
+  width: 17rem;
+  height: 12rem;
+  padding-top: 3.5vmin;
+  margin: 1rem;
+  border-radius: 0.5em;
+  -webkit-box-shadow: 1px 2px 50px 0px rgba(255, 0, 0, 0.349);
+          box-shadow: 1px 2px 50px 0px rgba(255, 0, 0, 0.349);
+}
+
+.numbers .rect h1 {
+  font-size: 5rem;
+  color: tomato;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.815);
+  z-index: 9999;
+  -webkit-transition: all 1.5s ease;
+  transition: all 1.5s ease;
 }
 
 .footer {

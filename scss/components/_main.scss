@@ -1,14 +1,11 @@
 //ABOUT 
 .about {
     margin: 3em 0em 6em;
-
     .container {
         display: flex;
         justify-items: flex-end;
     }
-
     .mission {
-
         h3 {
             font-size: 2em;
             font-weight: 400;
@@ -16,7 +13,6 @@
             margin: 1em 0em;
 
         }
-
         p {
             font-size: 1.1em;
             font-weight: 400;
@@ -29,10 +25,8 @@
 
     .mission-1 {
         margin: 3em 0em;
-
         ul {
             width: 550px;
-
             li {
                 a {
                     font-size: 1.4em;
@@ -47,9 +41,7 @@
                     &:hover {
                         color: #f1715e;
                     }
-
                 }
-
                 #active {
                     color: #f1715e;
 
@@ -57,29 +49,26 @@
                         color: #4292a8;
                     }
                 }
-
             }
         }
     }
 }
+
+
 //MEDIA
 
 .content {
     .grids {
         padding: 3em 0;
-
         .grid1 {
             position: relative;
             transition: all 0.3s ease-in-out;
-
             &:hover .look {
                 background: rgba(102, 131, 51, 0.79);
             }
-
             h3 {
                 @include text-grids;
             }
-
             .look {
                 @include look-media;
                 background: rgba(1, 185, 236, 0.63);
@@ -89,6 +78,12 @@
                 p {
                     @include p-look-media;
                 }
+                ul {
+                    padding: 0;
+                    li {
+                        display: inline-block;
+                    }
+                }
             }
         }
 
@@ -96,19 +91,24 @@
             &:hover .look1 {
                 background: rgba(237, 100, 80, 0.55);
             }
-
             h3 {
                 @include text-grids;
             }
-
             .look1 {
                 @include look-media;
                 background: rgba(102, 131, 51, 0.79);
-                 h4 {
+                h4 {
                     @include h4-media;
                 }
                 p {
                     @include p-look-media;
+                }
+                ul {
+                    padding: 0;
+
+                    li {
+                        display: inline-block;
+                    }
                 }
             }
         }
@@ -117,11 +117,9 @@
             &:hover .look2 {
                 background: rgba(1, 185, 236, 0.63);
             }
-
             h3 {
                 @include text-grids;
             }
-
             .look2 {
                 @include look-media;
                 background: rgba(237, 100, 80, 0.55);
@@ -130,6 +128,12 @@
                 }
                 p {
                     @include p-look-media;
+                }
+                ul {
+                    padding: 0;
+                    li {
+                        display: inline-block;
+                    }
                 }
             }
         }
@@ -145,3 +149,280 @@ i.arrow {
     margin: -0.5em 0.5em;
 }
 
+/* --events MEDIA-- */
+
+.events {
+    h3 {
+        font: {
+            size: 1.8em;
+        }
+        color: #4999af;
+        margin-bottom: 35px;
+    }
+
+    .family {
+        padding: 1.5em 0em;
+        border-top: 1px solid #e5e4e4;
+        .twenty {
+            width: 13%;
+            float: left;
+            h4 {
+                font-size: 2em;
+                font-weight: 400;
+                color: #668333;
+                margin: 0em;
+            }
+            p {
+                font-size: 1em;
+                font-weight: 400;
+                color: #668333;
+                line-height: 1.8em;
+            }
+        }
+
+        .sunday {
+            width: 55%;
+            float: left;
+            h5 {
+                font-size: 1.3em;
+                font-weight: 400;
+                color: #f1715e;
+            }
+            p {
+                font-size: 1.1em;
+                font-weight: 400;
+                color: #5f5f5f;
+                line-height: 1.8em;
+            }
+        }
+
+        .mor {
+            width: 32%;
+            float: left;
+            text-align: right;
+            a.more {
+                background: #4999af;
+                color: #fff;
+                font-size: 16px;
+                font-weight: 300;
+                padding: 0.3em 1.2em;
+                display: inline-block;
+                border-radius: 3px;
+                text-align: center;
+                margin: 1em 0em 0em;
+
+                &:hover {
+                    background: #f1715e;
+                    color: #fff;
+                }
+            }
+        }
+    }
+
+    .oaks {
+        p {
+            font-size: 1.1em;
+            font-weight: 400;
+            color: #5f5f5f;
+            margin: 1em 1em;
+            line-height: 1.6em;
+        }
+
+        a.read {
+            font-size: 1.2em;
+            font-weight: 400;
+            color: #f1715e;
+            text-decoration: none;
+            &:hover {
+                color: #668333;
+            }
+        }
+    }
+}
+
+
+
+/* --events MEDIA-- */
+
+// SHOP - EVENT 
+
+.grids-1 {
+    padding: 3em 0;
+}
+.grids-2 {
+    padding: 3em 0 8em;
+}
+
+// EVENTS
+
+.events {
+    h4 {
+        font-size: 1.2em;
+        color: #fff;
+        text-transform: uppercase;
+        margin: 0;
+    }
+
+    .look-1 {
+        @include look-event-shop;
+    }
+
+    .f-su {
+        width: 80%;
+        float: left;
+        background: #f1715e;
+        padding: 20px;
+    }
+
+    .mnth {
+        width: 20%;
+        float: right;
+        text-align: center;
+        background: #668333;
+        padding: 5.2px;
+
+        h5 {
+            font-size: 1.1em;
+            color: #fff;
+            margin: 0;
+        }
+
+        p {
+            font-size: 1.1em;
+            color: #fff;
+            text-transform: uppercase;
+            margin: 0;
+            line-height: 1.8em;
+        }
+    }
+}
+
+.fam {
+    height: 250px;
+    img {
+        transition: .2s;
+        cursor: pointer;
+        &:hover {
+            opacity: 0.5;
+        }
+    }
+}
+
+// SHOP
+.shop {
+    .look-2 {
+        @include look-event-shop;
+        h4 {
+            font-size: 1.2em;
+            color: #fff;
+            text-transform: uppercase;
+            margin: 0;
+        }
+    }
+}
+
+/*--*/
+.f-su-1 {
+    width: 80%;
+    float: left;
+    background: #f1715e;
+    padding: 20px;
+    &:hover {
+        background: #4999af;
+    }
+}
+
+.mnth-1 {
+    width: 20%;
+    float: right;
+    text-align: center;
+    background: #4999af;
+    padding: 22px 15px 20px;
+    &:hover {
+        background: #f1715e;
+    }
+    h6 {
+        font-size: 1.1em;
+        color: #fff;
+        margin: 0;
+    }
+}
+
+/*--*/
+
+.veiw-img-mark {
+	position: absolute;
+	top: 40%;
+	left: 35%;
+	display: none;
+    a {
+        background: #668333;
+        padding: 10px 20px 10px 2px;
+        color: #fff;
+        font-size: 0.875em;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-align: center;
+    }
+}
+
+.fam:hover div.veiw-img-mark {
+	display: block;
+}
+
+
+.cover {
+    width: 100%;
+    height: 55vmin;
+    background: url('/images/pexels-photo-452738.jpeg') fixed;
+    background-position: -24rem -19rem;
+    background-size: 150%;
+    position: relative;
+}
+
+.cover .content {
+    width: 100%;
+    height: 100%;
+    padding-top: 19vmin;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.cover .content > h1 {
+    font-size: 6vmin;
+    color: white
+}
+
+.cover .content > p {
+    font-size: 2vmin;
+    color: white
+}
+
+.numbers {
+    margin-top: -15vmin;
+}
+
+.numbers .rect {
+    position: relative;
+    z-index: 1;
+    background: white;
+    width: 17rem;
+    height: 12rem;
+    padding-top: 3.5vmin;
+    margin: 1rem;
+    border-radius: 0.5em;
+    box-shadow: 1px 2px 50px 0px rgba(255, 0, 0, 0.349);
+}
+
+.numbers .rect h1 {
+    font-size: 5rem;
+    color: tomato;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.815);
+    z-index: 9999;
+    transition: all 1.5s ease;
+}
