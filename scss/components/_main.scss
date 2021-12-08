@@ -62,7 +62,6 @@
         padding: 3em 0;
         .grid1 {
             position: relative;
-            transition: all 0.3s ease-in-out;
             &:hover .look {
                 background: rgba(102, 131, 51, 0.79);
             }
@@ -70,6 +69,7 @@
                 @include text-grids;
             }
             .look {
+                transition: all 0.5s ease-in-out;
                 @include look-media;
                 background: rgba(1, 185, 236, 0.63);
                 h4 {
@@ -95,6 +95,7 @@
                 @include text-grids;
             }
             .look1 {
+                transition: all 0.5s ease-in-out;
                 @include look-media;
                 background: rgba(102, 131, 51, 0.79);
                 h4 {
@@ -121,6 +122,7 @@
                 @include text-grids;
             }
             .look2 {
+                transition: all 0.5s ease-in-out;
                 @include look-media;
                 background: rgba(237, 100, 80, 0.55);
                 h4 {
@@ -304,45 +306,45 @@ i.arrow {
     background-position: -24rem -19rem;
     background-size: 150%;
     position: relative;
-}
-
-.cover .content {
-    width: 100%;
-    height: 100%;
-    padding-top: 19vmin;
-    background: rgba(0, 0, 0, 0.7);
-}
-
-.cover .content > h1 {
-    font-size: 6vmin;
-    color: white
-}
-
-.cover .content > p {
-    font-size: 2vmin;
-    color: white
+    .content {
+        width: 100%;
+        height: 100%;
+        padding-top: 19vmin;
+        background: rgba(0, 0, 0, 0.7);
+        > h1 {
+            font-size: 6vmin;
+            color: white
+        }
+        > p {
+            font-size: 2vmin;
+            color: white
+        }
+    }
 }
 
 .numbers {
     margin-top: -15vmin;
+    .rect {
+        position: relative;
+        z-index: 1;
+        background: white;
+        width: 17rem;
+        height: 12rem;
+        padding-top: 3.5vmin;
+        margin: 1rem;
+        border-radius: 0.5em;
+        box-shadow: 1px 2px 50px 0px rgba(255, 0, 0, 0.349);
+        h1 {
+            font-size: 5rem;
+            color: tomato;
+        }
+        p {
+            font-weight: bold;
+        }
+    }
 }
 
-.numbers .rect {
-    position: relative;
-    z-index: 1;
-    background: white;
-    width: 17rem;
-    height: 12rem;
-    padding-top: 3.5vmin;
-    margin: 1rem;
-    border-radius: 0.5em;
-    box-shadow: 1px 2px 50px 0px rgba(255, 0, 0, 0.349);
-}
 
-.numbers .rect h1 {
-    font-size: 5rem;
-    color: tomato;
-}
 .fam {
     height: 250px;
     img {
